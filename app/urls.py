@@ -9,9 +9,13 @@ from rest_framework.routers import DefaultRouter
 
 from core.views import UserViewSet
 
-router = DefaultRouter()
+from core.views import UserViewSet
+from core.views import CategoriaViewSet # nova linha
 
-router.register(r'usuarios', UserViewSet, basename='usuarios')
+router = DefaultRouter()
+router.register(r"users", UserViewSet, basename="users")
+router.register(r"categorias", CategoriaViewSet) # nova linha
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,3 +34,4 @@ urlpatterns = [
     # API
     path('api/', include(router.urls)),
 ]
+
