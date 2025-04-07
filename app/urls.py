@@ -9,12 +9,13 @@ from rest_framework.routers import DefaultRouter
 
 from core.views import UserViewSet
 
-from core.views import UserViewSet, CategoriaViewSet, EditoraViewSet, AutorViewSet 
+from core.views import UserViewSet, CategoriaViewSet, EditoraViewSet, AutorViewSet ,LivroViewSet 
 
 router = DefaultRouter()
 router.register(r"autores", AutorViewSet) # nova linha
 router.register(r"categorias", CategoriaViewSet) # nova linha
 router.register(r"editoras", EditoraViewSet) # nova linha
+router.register(r"livros", LivroViewSet) # nova linha
 router.register(r"users", UserViewSet, basename="users")
 
 urlpatterns = [
