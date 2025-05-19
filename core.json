@@ -941,6 +941,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "mhbar0ghzj4pjubvai380fqeyy8lznbr",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWmmdIozLt1zBjJtp4IaSCisjHdXEha6_e-9_zK9bOvQb1WXfszmYpw5_W5R0kOnHeS7TLfZpnlalzHaXbEHrbabsz6vh_t3MEgdvnXjnGPKmsBjKk0mHxQEizKQY0WOWCiRSuSzArfIEBAQYkviQ_Dm_QHU-jcd:1uH6Ut:F_dWjPMnwUixxn-bh2PtUdALGUVsvyvO2hGHk0IDag4",
+    "expire_date": "2025-06-02T19:50:03.291Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "wojg77wf6r5zcnvdzyf9eqajd8lx8gci",
   "fields": {
     "session_data": ".eJxVjEEOwiAQRe_C2hAHChSX7nsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnERIE6_W0R6pLoDvmO9NUmtrssc5a7Ig3Y5NU7P6-H-HRTs5VuPGgbOSWt0lkmnDNk4igYJrFfooxmAvVL5nADAee-8tdpEipnY6lG8P-m4N98:1tzKpF:oFeqAaA9Y8QnJ5RU8Ac8ANYZKjL0lIbNmt8MQxxuugY",
@@ -960,7 +968,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$870000$HIJmo8cnEjbK7xylQSWGGi$h0vTVT6DwwAppC8HVhqMn14HuZ0eMPIGtlBa/Z153qQ=",
-    "last_login": "2025-04-14T18:42:33.287Z",
+    "last_login": "2025-05-19T19:50:03.287Z",
     "is_superuser": true,
     "passage_id": "324321544235435",
     "email": "a@a.com",
